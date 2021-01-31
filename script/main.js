@@ -1,5 +1,3 @@
-import { StyleSwitcher } from './styleSwitcher.js';
-
 $(() => {
   // Put container in a cache variable
   const $container = $('div.switcher');

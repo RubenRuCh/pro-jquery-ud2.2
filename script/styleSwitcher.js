@@ -113,5 +113,3 @@ class StyleSwitcher {
     this.target.addClass($button.data('style'));
   }
 }
-
-export { StyleSwitcher };

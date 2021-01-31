@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/estilos.css" type="text/css" />
 
     <script src="lib/jquery.js"></script>
-    <script type="module" src="script/main.js"></script>
+    <!-- Importing styleSwitcher.js this way instead of module to avoid CORS policy to start complaining when opening this without http/live server -->
+    <script src="script/styleSwitcher.js"></script>
+    <script src="script/main.js"></script>
   </head>
   <body>
     <div id="container">
